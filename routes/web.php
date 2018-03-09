@@ -19,6 +19,9 @@ Route::get('/', function () {
 Route::post('/test', function () {
    echo "ok";
 });
+Route::post('/test2', function () {
+   echo "ok";
+});
 
 
 Route::get('/controller', "MyController@test");
